@@ -19,4 +19,13 @@
         'match': '=',
         'name': 'keyword.operator.moos'
     },
+    {
+        'match': '^(\\w+) ?= ?([\\w_]+)[\\n ]+'
+        'captures':
+            '1':
+                'name': 'variable.language.default.moos'
+            '2':
+                'name': 'entity.name.function.moos'
+        'name': 'meta.function.moos'
+    },
 ]
