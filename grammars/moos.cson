@@ -9,6 +9,6 @@
     },
     {
         'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b',
-        'name': 'keyword.operator.moos',
+        'name': 'constant.numeric.moos',
     },
 ]
