@@ -12,6 +12,10 @@
         'name': 'constant.numeric.moos',
     },
     {
+        'match': '\\b(true|false)\\b',
+        'match': 'constant.language.boolean.$1.moos',
+    }
+    {
         'match': '=',
         'name': 'keyword.operator.moos',
     },
