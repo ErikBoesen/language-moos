@@ -4,19 +4,19 @@
 
 'patterns': [
     {
-        'match': '^.*(//.*)$',
-        'name': 'comment.moos',
+        'match': '^.*(//.*)$'
+        'name': 'comment.moos'
     },
     {
-        'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b',
-        'name': 'constant.numeric.moos',
+        'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+        'name': 'constant.numeric.moos'
     },
     {
-        'match': '\\b(true|false)\\b',
-        'match': 'constant.language.boolean.$1.moos',
+        'match': '\\b(true|false)\\b'
+        'match': 'constant.language.boolean.$1.moos'
     }
     {
         'match': '=',
-        'name': 'keyword.operator.moos',
+        'name': 'keyword.operator.moos'
     },
 ]
