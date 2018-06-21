@@ -3,15 +3,15 @@
     "version": "0.0.0",
     "description": "MOOS language support in Atom",
     "engines": {
-        "atom": "*",
+        "atom": "*"
     },
     "dependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/ErikBoesen/language-moos.git",
+        "url": "https://github.com/ErikBoesen/language-moos.git"
     },
     "bugs": {
-        "url": "https://github.com/ErikBoesen/language-moos/issues",
+        "url": "https://github.com/ErikBoesen/language-moos/issues"
     },
-    "license": "MIT",
+    "license": "MIT"
 }
