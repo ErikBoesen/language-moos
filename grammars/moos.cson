@@ -1,3 +1,10 @@
 'scopeName': 'source.moos'
 'name': 'MOOS'
 'fileTypes': ['moos', 'bhv']
+
+'patterns': [
+    {
+        'match': '^.*(//.*)$',
+        'name': 'comment.moos',
+    },
+]
